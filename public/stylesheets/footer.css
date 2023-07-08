@@ -7,15 +7,20 @@
     box-shadow: 0 0 3px gray;
     z-index: 20;
     color: white;
-    height: 120px;
+    height: 180px;
     padding: 16px 16px;
 }
-.footer__icon{
+.footer__contents{
     display: flex;
     align-items: center;
     justify-content: space-between;  
 }
-
+.footer__contents__image{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+}
 @media screen and (min-width: 1000px) {
     .footer{
         display: none;

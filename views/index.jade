@@ -5,9 +5,10 @@ block content
 
   div.header
     div.header__wrapper
-      h1.header__start 
-        button.header__search &#128269
-        span.header__area  인천시 > 계양구
+      .header__start         
+        a(href='/')
+          img.header__search(src='/images/search.png')      
+        span.header__area 인천시 > 계양구
       .header__end 
         button.header__humburger &#9776
         img.header__alarm(src='/images/alarm.png') 
@@ -245,9 +246,9 @@ block content
             p.thumbs__text__speech 20                                                
 
   div.footer
-    div.footer__icon      
-      img.header__alarm(src='/images/home.png')      
-      img.header__alarm(src='/images/vlog.png')    
-      img.header__alarm(src='/images/parcel.png')
-      img.header__alarm(src='/images/position.png')
-      img.header__alarm(src='/images/user.png')    
+    div.footer__contents     
+      img.footer__contents__image(src='/images/home.png')      
+      img.footer__contents__image(src='/images/vlog.png')    
+      img.footer__contents__image(src='/images/parcel.png')
+      img.footer__contents__image(src='/images/position.png')
+      img.footer__contents__image(src='/images/user.png')    
