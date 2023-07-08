@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: black;
+	background-color: transparent;
 	color: white;
 	line-height: normal;
 }
@@ -56,15 +56,3 @@ table {
     outline: none;
 }
 
-@font-face {
-	font-family: "NotoSansKR";
-	src: url("../fonts/notoSansKR/NotoSans-Bold.woff") format("woff");
-	font-style: normal;
-  }
-  
-  @font-face {
-	font-family: "NotoSansKR";
-	src: url("../fonts/openSans/OpenSans-SemiBold.woff") format("woff");
-	unicode-range: U+0020-007E;
-	font-style: normal;
-  }

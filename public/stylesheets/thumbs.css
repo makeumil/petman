@@ -1,9 +1,11 @@
+
 .thumbs__wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 120px 0 180px 200px;
     padding: 20px 0 0 20px;
+    background-color: black;
 }
 .thumbs__item{
     display: flex;
@@ -87,7 +89,7 @@
     display: flex;
     position: fixed;
     right: 10px;
-    bottom: 190px;
+    bottom: 10px;
     z-index: 999;
   }
   
@@ -162,5 +164,8 @@
     .thumbs__text__speech{
         font-size:  2.5rem;
     }
+    .floating-button {
+        bottom: 190px;
+      }
 }
 
