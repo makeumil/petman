@@ -14,13 +14,17 @@
     padding: 0 10px;
 }
 .thumbs__thumbnail{
+    width: 50%;
+    max-width: 100%;
+}
+.thumbs__thumbnail__img{
     max-width: 100%;
     border-radius: 5%;
     margin: 0 0 0 0;
 }
 .thumbs__info{
-    width: 100%;
-    max-width: 50%;
+    width: 50%;
+    max-width: 100%;
     margin: 0 10px 0 10px;
 }
 .thumbs__profile__group{
