@@ -1,9 +1,11 @@
-
+.thumb{
+    margin-bottom: 120px;
+}
 .thumbs__wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 60px 0 0 200px;
+    margin: 60px 0 120px 200px;
     padding: 20px 0 0 20px;
 }
 .thumbs__item{
@@ -83,7 +85,7 @@
 
 @media screen and (max-width: 1200px) {
     .thumbs__wrapper{
-        margin: 60px 0 0 200px;
+        margin: 60px 0 120px 200px;
     }
     .thumbs__item{
         width: 50%;
@@ -93,7 +95,7 @@
 
 @media screen and (max-width: 1000px) {
     .thumbs__wrapper{
-        margin: 60px 0 0 0;
+        margin: 60px 0 120px 0;
         padding: 20px 0 0 0;
     }
     .thumbs__item{

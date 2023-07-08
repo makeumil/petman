@@ -7,7 +7,7 @@
     box-shadow: 0 0 3px gray;
     z-index: 20;
     color: white;
-    height: 60px;
+    height: 120px;
     padding: 16px 16px;
 }
 .footer__icon{
@@ -16,8 +16,9 @@
     justify-content: space-between;  
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .footer{
         display: none;
     }
 }
+
