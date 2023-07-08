@@ -1,0 +1,48 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 3px gray;
+    z-index: 20;
+    color: white;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 16px;
+}
+.header__start{
+    height: 40px;
+    line-height: 40px;
+}
+.header__humburger{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: white;
+}
+.header__title{
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+.header__area{
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+.header__search{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: white;    
+}
+.header__alarm{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    margin-left: 6px;
+}
