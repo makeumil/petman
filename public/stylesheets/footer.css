@@ -19,8 +19,8 @@
 .footer__contents a{
     text-decoration-line: none;
 }
-.footer__contents span{
-    font-size: 2rem;
+.footer__contents p{
+    font-size: 1.5rem;
     color: rgb(210, 210, 210);
 }
 .footer__contents__image{
@@ -28,6 +28,9 @@
     height: 80px;
     border: none;
     background-color: rgb(20, 20, 20);
+}
+.footer__item{
+    display: flex;
 }
 @media screen and (min-width: 1000px) {
     .footer{
