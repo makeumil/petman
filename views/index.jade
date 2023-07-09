@@ -24,7 +24,7 @@ block content
             img.thumbs__thumbnail__img(src='/upload/puppy1.jpg')
         .thumbs__info        
           .thumbs__profile__group   
-            .thumbs_profile_id
+            .thumbs_profile_title
               p.thumbs__text__name 꽃님이 / 여 / 7개월
               p.thumbs__text__date 2023.07.09 12:20
           .thumbs__text 
@@ -230,17 +230,22 @@ block content
   div.footer
     div.footer__contents     
       .footer__home
-        img.footer__contents__image(src='/images/home2.png')   
-        p 홈
-      .footer__vlog     
-        img.footer__contents__image(src='/images/vlog2.png')  
-        p 펫매니저
+        a(href='/')
+          img.footer__contents__image(src='/images/home2.png')   
+          span 홈
+      .footer__vlog 
+        a(href='/')    
+          img.footer__contents__image(src='/images/vlog2.png')  
+          span 펫매니저
       .footer__parcel   
-        img.footer__contents__image(src='/images/parcel2.png')
-        p 분양정보
+        a(href='/')
+          img.footer__contents__image(src='/images/parcel2.png')
+          span 분양정보
       .footer__position  
-        img.footer__contents__image(src='/images/position2.png')
-        p 지역정보
+        a(href='/')
+          img.footer__contents__image(src='/images/position2.png')
+          span 지역정보
       .footer__user
-        img.footer__contents__image(src='/images/user2.png')    
-        p 사용자
+        a(href='/')
+          img.footer__contents__image(src='/images/user2.png')    
+          span 사용자

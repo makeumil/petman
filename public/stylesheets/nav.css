@@ -7,7 +7,7 @@
 .nav__wrapper{
     min-width: 200px;
     min-height: 100vh;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
     padding: 80px 0 0 0;
     list-style: none;
@@ -18,23 +18,27 @@
     color: white;
 }
 .nav__wrapper li:hover{
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
 .nav__icon{
-    width: 60px;
-    color: white;
+    width: 40px;
 }
 .nav__menu{
     margin: 0 0 0 8px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: none;
     background-color: transparent;
-    color: white;
+    color: rgb(210, 210, 210);
 }
 .nav__wrapper a{
     text-decoration-line: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .nav__menu{
+        display: none;
+    }
+}
 @media screen and (max-width: 1000px) {
     .nav__wrapper{
         display: none;

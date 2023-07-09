@@ -37,7 +37,7 @@
     height: calc(100% - 180px);
 }
 .thumbs__text__name{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .thumbs__text__date{
     font-size:  0.8rem;
@@ -115,7 +115,7 @@
   }
 @media screen and (max-width: 1200px) {
     .thumbs__wrapper{
-        margin: 60px 0 120px 200px;
+        margin: 60px 0 120px 60px;
     }
     .thumbs__item{
         width: 50%;
@@ -131,7 +131,7 @@
     .thumbs__item{
         width: 100%;
     }
-    .thumbs__text__owner{
+    .thumbs__text__name{
         font-size:  2rem;
     }
     .thumbs__text__date{

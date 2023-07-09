@@ -3,10 +3,10 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     box-shadow: 0 0 3px gray;
     z-index: 20;
-    color: white;
+    color: rgb(210, 210, 210);
     height: 180px;
     padding: 16px 16px;
 }
@@ -16,14 +16,18 @@
     text-align: center;
     justify-content: space-between;  
 }
-.footer__contents p{
+.footer__contents a{
+    text-decoration-line: none;
+}
+.footer__contents span{
     font-size: 2rem;
+    color: rgb(210, 210, 210);
 }
 .footer__contents__image{
     width: 100px;
     height: 100px;
     border: none;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
 @media screen and (min-width: 1000px) {
     .footer{
