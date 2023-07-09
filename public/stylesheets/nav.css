@@ -38,6 +38,8 @@
     .nav__menu{
         display: none;
     }
+    .nav__wrapper{
+        min-width: 60px;
 }
 @media screen and (max-width: 1000px) {
     .nav__wrapper{
