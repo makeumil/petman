@@ -5,7 +5,6 @@
     justify-content: space-between;
     margin: 120px 0 180px 200px;
     padding: 20px 0 0 20px;
-    background-color: black;
 }
 .thumbs__item{
     display: flex;
@@ -110,8 +109,8 @@
     float: left;
     display: flex;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     cursor: pointer;
     justify-content: center;
